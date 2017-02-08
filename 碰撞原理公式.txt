@@ -1,0 +1,6 @@
+
+if((this.x+this.width>=target.x)			//左边撞击
+   &&(target.x+target.width>=this.x)			//右边撞击
+   &&（this.y+this.height>=target.y）			//从上方撞击
+   &&（target.y+target.height>=this.y）			//从下方撞击
+)
